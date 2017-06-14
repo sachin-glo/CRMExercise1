@@ -1,0 +1,45 @@
+
+<br/>
+
+ 
+<div class="container">
+  <div class="alert alert-info">
+ <strong>Clients List</strong>
+</div>
+<section  *ngIf="clients.length > 0">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Email</th>
+        <th>Field</th>
+        <th>City</th>
+        <th>Pincode</th>
+         <th>Delete</th>
+          <th>Update</th>
+      </tr>
+    </thead>
+  
+    
+       
+      <tbody>
+      <tr  *ngFor="let client of clients" >
+        <!--<app-client-list-item
+        [client]="client"
+        
+        (remove)="onRemoveClient($event)"></app-client-list-item>
+          -->
+       <td>{{client.name}}</td>
+   <td>{{client.description}}</td>
+    <td>{{client.email}}</td>
+     <td>{{client.field}}</td>
+         <td>{{client.city}}</td>
+           <td>{{client.pincode}}</td>
+  <td><button type="button" class="btn btn-default" (click)="removeClient(client)">Remove</button><td>
+<td><button type="button" class="btn btn-default" (click)="updateClient(client)">Update</button><td>
+      </tr>
+      </tbody>
+  </table>
+  </section>
+</div>

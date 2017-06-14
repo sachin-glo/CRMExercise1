@@ -1,0 +1,106 @@
+{
+  "clients": [
+    {
+      "name": "Sachin",
+      "description": "Goyal",
+      "email": "sa@gmail.com",
+      "pincode": "121008",
+      "city": "",
+      "field": "",
+      "id": 5
+    },
+    {
+      "name": "Rama",
+      "description": "Sales",
+      "email": "ra@gmail.com",
+      "pincode": "",
+      "city": "",
+      "field": "",
+      "id": 6
+    },
+    {
+      "name": "John",
+      "description": "Cooper",
+      "email": "j@jmail.com",
+      "pincode": "121006",
+      "city": "Panajim",
+      "field": "Customer Service",
+      "id": 7
+    },
+    {
+      "name": "Jiohn",
+      "description": "Cooper",
+      "email": "",
+      "pincode": "",
+      "city": "Dharamshala",
+      "field": "Customer Service",
+      "id": 8
+    }
+  ],
+  "fields": [
+    {
+      "id": 1,
+      "field": "Sales"
+    },
+    {
+      "id": 2,
+      "field": "Marketing"
+    },
+    {
+      "id": 3,
+      "field": "Customer Service"
+    },
+    {
+      "id": 4,
+      "field": "Analysis"
+    },
+    {
+      "id": 5,
+      "field": "Warehouse"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "city": "Mussourie"
+    },
+    {
+      "id": 2,
+      "city": "Manali"
+    },
+    {
+      "id": 3,
+      "city": "Dharamshala"
+    },
+    {
+      "id": 4,
+      "city": "Panajim"
+    },
+    {
+      "id": 5,
+      "city": "Kufri"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Ranvir Singh"
+    },
+    {
+      "id": 2,
+      "name": "Katrina Kaif"
+    },
+    {
+      "id": 2,
+      "name": "Deepika "
+    },
+    {
+      "id": 2,
+      "name": "Amitabh Bachhan"
+    },
+    {
+      "id": 2,
+      "name": "Sachin Tendulkar"
+    }
+  ]
+}
